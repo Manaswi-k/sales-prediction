@@ -13,6 +13,7 @@ Evaluates model with R² Score and Mean Squared Error
 
 Highlights the most important features affecting sales
 
+
 -> Dataset
 
 Source: car_purchasing.csv 
@@ -20,6 +21,7 @@ Source: car_purchasing.csv
 link:- https://www.kaggle.com/datasets/yashpaloswal/ann-car-sales-price-prediction/data
 
 Includes customer demographics, personal income, and spending behavior
+
 
 ->Technologies Used
 
@@ -31,7 +33,9 @@ scikit-learn (for ML modeling & preprocessing)
 
 joblib (for saving the model)
 
+
 /SalesPrediction/
+
 ├── sales_prediction.py      # Full code for data prep, training, and evaluation
 
 ├── car_purchasing.csv       # Dataset
@@ -42,6 +46,7 @@ joblib (for saving the model)
 
 └── README.md                # Documentation
 
+
 ✅ Results
 
 R² Score: 0.9505
@@ -49,6 +54,7 @@ R² Score: 0.9505
 MSE: 3,561,146.23
 
 ➡️ The model explains 95% of the variation in purchase behavior!
+
 
 ## 📌 How to Run
 1. Clone the repo and install dependencies:
