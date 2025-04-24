@@ -33,10 +33,22 @@ joblib (for saving the model)
 
 /SalesPrediction/
 ├── sales_prediction.py      # Full code for data prep, training, and evaluation
+
 ├── car_purchasing.csv       # Dataset
+
 ├── scaler.pkl               # Saved Scaler
+
 ├── sales_prediction_model.pkl # Trained ML model
+
 └── README.md                # Documentation
+
+✅ Results
+
+R² Score: 0.9505
+
+MSE: 3,561,146.23
+
+➡️ The model explains 95% of the variation in purchase behavior!
 
 ## 📌 How to Run
 1. Clone the repo and install dependencies:
